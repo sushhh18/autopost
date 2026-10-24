@@ -1,0 +1,19 @@
+Ek minute mein 40 lakh baar "seat hai kya?" 🤯 IRCTC ka server crash kyun nahi hota? 🚆
+
+Trick simple hai: bheed ko server tak pahunchne hi mat do. Raaste ke har station pe thodi thodi bheed kam karo 👇
+
+1️⃣ CDN (Content Delivery Network): page ka 87% content tumhare sheher ke paas wale server se aata hai
+2️⃣ Bot check: Tatkal ke pehle 5 min mein aadhe logins bots ke the. Unhe gate pe hi bahar karo
+3️⃣ Load balancer: toll plaza jaisa, sabko barabar baanto
+4️⃣ Cache: log check zyada karte hain, book kam. "Seat hai kya" ka jawab fast memory se
+5️⃣ PRS (Passenger Reservation System): seat lock, double booking nahi
+
+☁️ Naya system cloud pe: 32,000 se 1.5 lakh bookings per minute, 40 lakh enquiries per minute
+
+Note: load balancer, cache aur seat lock general system design concepts hain. IRCTC ka exact internal setup public nahi hai.
+Sources: PIB (Aug 2026), IRCTC via MediaNama (Jun 2025), CRIS
+
+Us dost ko bhejo jo Tatkal ke time IRCTC ko gaali deta hai 😅
+Aise hi interesting tech stories ke liye follow karo 🚀
+
+#trending #trendingreels #viral #ᴛʀᴇɴᴅɪɴɢᴘᴏsᴛ #irctc

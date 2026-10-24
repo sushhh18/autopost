@@ -1,0 +1,16 @@
+IRCTC 40 lakh requests per minute kaise handle karta hai? 🚆 | How it works (Hinglish) #shorts
+Ek minute mein 40 lakh baar "seat hai kya?" IRCTC ka server crash kyun nahi hota?
+
+Trick: bheed ko server tak pahunchne hi mat do. Har station pe thodi bheed kam karo.
+1. CDN (Content Delivery Network): page ka 87% content paas wale server se
+2. Bot check: Tatkal ke pehle 5 min mein aadhe logins bots ke the
+3. Load balancer: sabko barabar baanto, toll plaza jaisa
+4. Cache: "seat hai kya" ka jawab fast memory se
+5. PRS (Passenger Reservation System): seat lock, double booking nahi
+
+Naya cloud system: 32,000 se 1.5 lakh bookings/min, 40 lakh enquiries/min.
+
+Note: load balancer, cache aur seat lock general system design concepts hain; IRCTC ka exact internal setup public nahi hai.
+Sources: PIB (Aug 2026) · IRCTC press release via MediaNama (Jun 2025) · CRIS
+
+#trending #viral #irctc #systemdesign #shorts
