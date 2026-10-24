@@ -1,0 +1,24 @@
+name: Check setup
+
+# Run this once after adding the token secret: prints your IG_USER_ID and
+# confirms the account is Professional and the video URL base is reachable.
+on: workflow_dispatch
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Token + account
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python scripts/ig_token.py check
+      - name: GitHub Pages reachable
+        run: |
+          URL="${{ vars.PAGES_BASE }}/README.md"
+          echo "Checking $URL"
+          curl -sfI "$URL" >/dev/null && echo "Pages OK" || (echo "::error::Pages not reachable — enable Pages or fix PAGES_BASE"; exit 1)

@@ -1,0 +1,9 @@
+Raat ke 2 baje API down… sirf ek user ki wajah se 😶
+
+Interview ka classic sawaal: Rate Limiter kaise design karoge?
+Token Bucket = bursts allowed ✅ spam blocked ❌
+Bonus: 10 servers ho toh? Redis + atomic Lua 🔒
+
+Aise hi system design concepts ke liye follow karo 🚀
+
+#systemdesign #ratelimiter #backenddevelopment #softwareengineer #codinginterview #techreels #hinglish #developersofindia #redis #interviewprep
