@@ -1,0 +1,24 @@
+Spotify ne apne users ke laptops ko hi server bana diya tha 🤯 Piracy ko harane ki ye kahani + system design ke 2 lessons 👇
+
+📜 2006, Stockholm. Daniel Ek & Martin Lorentzon ka idea: piracy rokni hai, toh music ko piracy se bhi zyada aasaan bana do. Oct 2008 mein Spotify launch hua.
+
+⚡ Jugaad: P2P (desktop app)
+Gaane ka pehla hissa (~15 sec) Spotify ke server se aata tha, baaki 16 kB ke chunks doosre users ke computers se.
+March 2010 ka data: 8.8% servers se, 35.8% doosre users se, 55.4% tumhare apne cache se.
+
+🚀 Play se gaana bajne tak: median 265 ms. Teen tricks:
+1️⃣ Cache: suna hua gaana pehle se laptop mein
+2️⃣ Prefetch: gaana khatam hone se pehle hi agla gaana download
+3️⃣ Naye gaane ka pehla hissa seedha server se
+Ek hafte galti se prefetch band hua, toh latency 390 ms ho gayi!
+
+🧠 System design lesson: data paas rakho, aur zaroorat se pehle laao.
+
+🔄 2014 mein P2P band, 2016 mein infra Google Cloud pe.
+🎯 Discover Weekly (2015): tum kya sunte ho + tumhare jaise log kya sunte hain = collaborative filtering.
+📈 Aaj: 78.8 crore+ monthly users, 184 markets (Q3 2026).
+
+Kisi music lover dost ko bhejo jo roz Spotify chalata hai 🎶
+Aise hi interesting tech stories ke liye follow karo 🚀
+
+#trending #repost #spotify #systemdesign #howitworks #techhistory #hinglish
