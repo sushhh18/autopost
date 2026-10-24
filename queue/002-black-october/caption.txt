@@ -1,0 +1,20 @@
+Black October 🚨 21 Oct 2026 ko PHP ne 2 critical security fixes release kiye.
+
+🔍 Kya hua?
+70% se zyada websites PHP pe chalti hain. Isme 10+ saal purane code mein 2 bugs mile, jo researchers ne AI ki madad se dhoondhe. Inse attacker bina login ke server pe apna code chala sakta tha: RCE (Remote Code Execution).
+
+🧠 Itne saal chhupe kaise?
+PHP ka ek worker process kai requests chalata hai. Ek request ki memory free hui, par uska purana reference reh gaya, aur agli request ne wahi stale data use kar liya. Ye sirf rare conditions mein hota hai, isliye saalon tak pakda nahi gaya.
+
+🛠️ Server PHP pe hai? Ye karo:
+1️⃣ Sabse pehle php -v se version check karo. Fixed: 8.5.12 / 8.4.27 / 8.3.36 / 8.2.35 (ya naya)
+2️⃣ Update ke baad PHP-FPM / Apache restart, warna purana code hi memory mein chalta rahega
+3️⃣ Patch tak WAF rules, par ye sirf temporary hai, asli fix update hi hai
+4️⃣ Server exposed tha? API keys, tokens, passwords sab rotate karo
+
+📐 Design lesson: least privilege. Hack hua bhi toh nuksaan chhota.
+👤 User ho? Password manager + har site ka alag password.
+
+Aise hi interesting tech stories ke liye follow karo 🚀
+
+#cybersecurity #blackoctober #php #infosec #websecurity #devops #backenddevelopment #softwareengineer #techreels #developersofindia #hinglish #ai
