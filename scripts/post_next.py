@@ -63,8 +63,10 @@ def main():
     caption = (item / "caption.txt").read_text(encoding="utf-8").strip() if (item / "caption.txt").exists() else ""
     if len(caption) > 2200:
         die("Caption longer than Instagram's 2200 char limit")
-    if caption.count("#") > 30:
-        die("More than 30 hashtags — Instagram will reject it")
+    import re as _re
+    tags = _re.findall(r"#\w+", caption)
+    if len(tags) > 5:
+        die(f"{len(tags)} hashtags found. Instagram now allows max 5 per post (Dec 2025). Trim caption.txt")
     url = f"{BASE}/queue/{item.name}/reel.mp4"
     print(f"Next reel: {item.name}\nURL: {url}")
     wait_public(url)
@@ -72,8 +74,19 @@ def main():
     limit = call("GET", f"{IG_ID}/content_publishing_limit", fields="quota_usage,config")
     print("Publishing quota:", json.dumps(limit.get("data", limit)))
 
-    container = call("POST", f"{IG_ID}/media", media_type="REELS", video_url=url,
-                     caption=caption, share_to_feed="true")["id"]
+    params = dict(media_type="REELS", video_url=url, caption=caption, share_to_feed="true")
+    if (item / "cover.jpg").exists():
+        params["cover_url"] = f"{BASE}/queue/{item.name}/cover.jpg"
+        wait_public(params["cover_url"])
+        print("Cover:", params["cover_url"])
+    try:
+        container = call("POST", f"{IG_ID}/media", **params)["id"]
+    except SystemExit:
+        if "cover_url" not in params:
+            raise
+        print("::warning::Instagram rejected cover_url, retrying without custom cover (first frame will be used)")
+        params.pop("cover_url")
+        container = call("POST", f"{IG_ID}/media", **params)["id"]
     print("Container:", container)
 
     # Instagram downloads + processes the video; poll until FINISHED
