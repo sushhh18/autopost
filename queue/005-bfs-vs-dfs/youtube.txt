@@ -1,0 +1,11 @@
+BFS vs DFS: same maze race! DFS pehle pahuncha, par jeeta BFS 🤯 | Hinglish #shorts
+Ek hi maze pe BFS aur DFS ki race.
+
+BFS (Breadth First Search): level by level, queue se. DFS (Depth First Search): ek raasta end tak, stack se.
+DFS ne 88 cells dekhe, BFS ne 213. Par raasta: DFS 78 steps, BFS sirf 28.
+Kyun? BFS ne 27 step tak ke saare cells pehle hi dekh liye, exit nahi mila, toh 28 hi shortest hai (jab har step barabar ho).
+Code mein fark sirf ek line: q.popleft() vs st.pop().
+
+Maze code se generate hua hai; dono algorithms asli mein chale, numbers real hain.
+
+#dsa #coding #interviewprep #bfs #shorts

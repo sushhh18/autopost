@@ -1,0 +1,21 @@
+Ek maze, do algorithms. DFS pehle pahuncha... par jeeta BFS 🤯 Kaise? Reel dekho 👇
+
+🌊 BFS (Breadth First Search) = chaudai: pehle 1 step door wale saare cells, phir 2, phir 3. Queue use karta hai (ticket counter ki line)
+🐍 DFS (Depth First Search) = gehraai: ek raasta end tak, dead end pe peeche. Stack use karta hai (plates ka dher)
+
+Is maze mein:
+• DFS ne sirf 88 cells dekhe, BFS ne 213
+• Par raasta: DFS 78 steps, BFS sirf 28 (2.8x chhota)
+
+Kyun? BFS level by level failta hai. 27 step tak exit nahi mila, toh 28 se chhota raasta ho hi nahi sakta. (Jab har step barabar ho)
+
+💡 Code mein fark sirf ek line: q.popleft() vs st.pop()
+✅ Shortest path chahiye → BFS
+✅ Saare raaste / puzzles / backtracking → DFS
+
+Maze code se bana hai, dono algorithms asli mein chale hain, numbers real hain.
+
+Tum BFS ho ya DFS? Comment mein batao 👇
+Interview wale dost ko bhejo 🚀 Follow @scaleit__up
+
+#trending #viral #dsa #coding #interviewprep
