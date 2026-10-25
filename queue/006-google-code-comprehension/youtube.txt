@@ -1,0 +1,7 @@
+Google ka naya interview round: code likhna nahi, bug pakadna hai! DSA khatam? 🤔 #shorts
+Google kuch teams ke software engineer interviews mein "Code Comprehension" round try kar raha hai: kisi aur ka code padho, bug dhoondho, AI (Gemini) ki madad le sakte ho. Oct 2026 report: AI fluency ab har SWE job ke liye zaroori.
+Kyun? Google ka 75% naya code AI generate karta hai (Sundar Pichai, Apr 2026).
+DSA khatam? Nahi, ye abhi kuch teams mein test hai.
+Live challenge: AI ka code, 5 second mein bug dhoondho!
+Sources: Business Insider (May & Oct 2026), Semafor (Apr 2026)
+#google #codinginterview #dsa #ai #shorts
