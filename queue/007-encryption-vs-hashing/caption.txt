@@ -1,0 +1,16 @@
+Hacker ne poora database chura liya… par ek bhi password nahi padh paaya 🤯 Kyun? 👇
+
+🔐 Encryption: message ko secret code mein badalta hai. Key ho toh wapas asli message. (Jaise WhatsApp ke messages)
+🔢 Hashing: password ko hash mein badalta hai. Hash se password wapas banane ka koi tareeka nahi. One-way.
+
+✅ Isliye achhi apps password nahi, sirf hash save karti hain. Login pe tumhare password ka hash banta hai aur saved hash se match hota hai.
+
+⚠️ Hacker ki chaal: 123456 jaise common passwords ke hash pehle se bana ke milana
+🧂 Ilaaj: salt. Har password mein random string, toh same password ka bhi alag hash
+
+📰 Asli kahani: Sept 2024 mein Meta pe €91 million ka fine laga, kyunki crore-on Facebook/Instagram passwords internal systems mein plain text mein pade mile the.
+
+Tumhara password 123456 toh nahi? Aaj hi badal do 😅
+Aise hi tech concepts ke liye follow karo @scaleit__up 🚀
+
+#trending #viral #cybersecurity #coding #tech

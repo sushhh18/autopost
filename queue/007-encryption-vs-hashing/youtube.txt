@@ -1,0 +1,7 @@
+Encryption vs Hashing: hacker ne database chura liya, par password kyun nahi mila? 🔐 | Hinglish #shorts
+Encryption: message → secret code, key se wapas. Hashing: password → hash, wapas nahi (one-way).
+Isliye apps sirf hash save karti hain; login pe hash match hota hai.
+Hacker common passwords (123456) ke hash milata hai → ilaaj: salt.
+Asli kahani: Sept 2024, Meta pe €91M fine, passwords plain text mein store the.
+Sources: Ireland DPC via Malwarebytes/Computing (2024), NordPass most common passwords 2025.
+#cybersecurity #hashing #encryption #coding #shorts
