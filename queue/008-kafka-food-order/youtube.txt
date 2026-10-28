@@ -1,0 +1,15 @@
+Kafka kyun? Ek food order, 6 systems ko khabar 🍛 | System Design (Hinglish) #shorts
+New Year ki raat Swiggy pe har minute 9,500 orders. Har order ki khabar 6 alag systems ko chahiye. Kafka isse kaise solve karta hai?
+
+Problem: order service ek ek karke sabko call kare, toh slow, aur ek server down = order atka.
+Trick: ek baar khabar likho, jise chahiye woh khud padhe.
+1. Event → topic (producer)
+2. Consumers + offset (bookmark), message delete nahi hota, kuch miss nahi
+3. Partitions + consumer group, key = order ID se sahi kram
+4. Naya system bina code badle, purane events replay
+
+Kafka LinkedIn ne banaya; 2015 tak roz 1 trillion messages.
+Note: Swiggy ka exact internal flow public nahi; reel ka flow illustration hai.
+Sources: The News Minute, Confluent (Swiggy), LinkedIn Engineering, Apache Kafka docs
+
+#systemdesign #kafka #shorts

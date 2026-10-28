@@ -1,0 +1,22 @@
+New Year ki raat, Swiggy pe har minute 9,500 orders 🍛 Har order ki khabar 6 alag systems ko chahiye. Bina khoye, bina atke kaise? Jawab: Kafka 👇
+
+❌ Seedha tareeka: order service ek ek karke sabko call kare. Slow, aur ek server down = poora order atka
+
+✅ Trick: call mat karo. Ek baar khabar likh do, jise chahiye woh khud padhe
+
+1️⃣ Event → topic: order service (producer) "order placed" likhta hai. Kuch ms mein kaam khatam
+2️⃣ Consumers + offset: har system apni speed se padhta hai, apna bookmark (offset) rakhta hai. Message padhne ke baad delete nahi hota. SMS server down? Wapas aake bookmark se aage, ek bhi order miss nahi
+3️⃣ Partitions: dinner rush mein topic ko hisson mein baanto, consumer group ke workers ek saath padhein. Key = order ID, isliye ek order ki saari updates sahi kram mein
+4️⃣ Naya system: rewards aaya, order service mein ek line nahi badli. Purane events padh ke pichle orders ke points bhi
+
+🧠 Lesson: sabko call mat karo. Khabar likho, jise chahiye woh padhe
+
+Fact: Kafka LinkedIn ne banaya tha. 2015 tak wahan roz 1 lakh crore (1 trillion) messages isse guzarte the.
+
+Note: Swiggy Kafka use karta hai (Confluent case study), par uska exact internal order flow public nahi hai. Reel ka flow aur numbers (200 ms, order #4821) illustration hain. Kafka ka behaviour (topic, offset, partitions, key) standard Kafka hai.
+Sources: The News Minute (NYE 2021 peak), Confluent (Swiggy case study), LinkedIn Engineering (2011, 2015), Apache Kafka docs
+
+Interview mein "Kafka kyun?" pucha jaaye toh ye reel yaad rakhna. Us dost ko bhejo jiska system design round aane wala hai 🚀
+Aise hi interesting tech stories ke liye follow karo
+
+#trending #trendingreels #viral #systemdesign #kafka
