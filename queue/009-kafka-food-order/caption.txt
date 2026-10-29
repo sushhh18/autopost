@@ -13,7 +13,7 @@ New Year ki raat, Swiggy pe har minute 9,500 orders 🍛 Har order ki khabar 6 a
 
 Fact: Kafka LinkedIn ne banaya tha. 2015 tak wahan roz 1 lakh crore (1 trillion) messages isse guzarte the.
 
-Note: Swiggy Kafka use karta hai (Confluent case study), par uska exact internal order flow public nahi hai. Reel ka flow aur numbers (200 ms, order #4821) illustration hain. Kafka ka behaviour (topic, offset, partitions, key) standard Kafka hai.
+Note: Swiggy Kafka use karta hai (Confluent case study), par uska exact internal order flow public nahi hai. Reel ka flow aur numbers (200 ms, order 4821) illustration hain. Kafka ka behaviour (topic, offset, partitions, key) standard Kafka hai.
 Sources: The News Minute (NYE 2021 peak), Confluent (Swiggy case study), LinkedIn Engineering (2011, 2015), Apache Kafka docs
 
 Interview mein "Kafka kyun?" pucha jaaye toh ye reel yaad rakhna. Us dost ko bhejo jiska system design round aane wala hai 🚀
