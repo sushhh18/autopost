@@ -1,0 +1,17 @@
+Number save nahi, phir bhi Truecaller pe naam kaise aa gaya? 🤔 Interview mein ye sawaal aata hai, jawab yahan hai 👇
+
+1️⃣ App install karte hi contacts ka access maangta hai
+2️⃣ Ek hi number crore-on phones mein alag naamon se saved hota hai (Priya Office, Priya Sharma, Priya Didi...)
+3️⃣ Server pe sab naam us number ke neeche jama hote hain, aur sabse bharosemand naam screen pe aata hai
+4️⃣ Twist: app kabhi install nahi kiya? Phir bhi aapka naam ho sakta hai, kyunki aap kisi dost ke phone mein saved ho
+5️⃣ Spam = bahut saare logon ki reports. Naam hatana ho to official website pe number unlist kar sakte ho
+
+🎯 Interview mein bolo: "Crowdsourced phonebook. Users ki contact lists se naam jama hote hain, aur algorithm har number ka sabse bharosemand naam chunta hai."
+
+ℹ️ Naam chunne ka exact algorithm public nahi hai; reel mein numbers illustration hain.
+📚 Sources: Truecaller privacy policy & support docs, TechCrunch (Apr 2025: 450M+ monthly users), The Caravan (2022) on Enhanced Search.
+
+💾 Save kar lo, interview mein kaam aayega. Dost ko bhejo jo har unknown call pe Truecaller kholta hai 😄
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#truecaller #systemdesign #interviewquestions #trending #viral

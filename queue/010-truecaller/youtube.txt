@@ -1,0 +1,7 @@
+Number save nahi, phir bhi naam kaise dikha? Truecaller ka raaz #shorts
+Truecaller unknown number ka naam kaise dikhata hai? Crowdsourcing: users ki contact lists se ek giant phonebook, aur algorithm har number ka sabse bharosemand naam chunta hai. Twist: app install nahi kiya phir bhi aapka naam ho sakta hai. Spam reports aur unlisting bhi samjho.
+
+Naam chunne ka exact algorithm public nahi hai; numbers illustration hain.
+Sources: Truecaller privacy policy & support docs, TechCrunch (Apr 2025), The Caravan (2022).
+
+#truecaller #systemdesign #interviewquestions
