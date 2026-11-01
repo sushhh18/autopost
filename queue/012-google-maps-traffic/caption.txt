@@ -1,0 +1,16 @@
+2020, Berlin: ek aadmi ne 99 phones ek thele mein daale aur Google Maps pe khaali sadak LAAL ho gayi 🤯 Maps ko jam ka pata kaise chalta hai? 👇
+
+1️⃣ Jinhone location sharing ON rakhi hai, unke phones bina naam ke location aur speed bhejte hain
+2️⃣ Har dot ek chalti gaadi. Dots tez = green, dheere = orange, ruke hue = laal
+3️⃣ Thele ke 99 dheere phones = Google ko laga 99 gaadiyan phasi hain, isliye baaki logon ko doosra raasta mila
+4️⃣ ETA ke liye purane patterns bhi (jaise har Monday 9 baje jam) + machine learning
+
+🎯 Interview mein bolo: "Crowdsourced anonymous location data se road ki average speed, usse traffic colour. Live + historical data + ML se ETA."
+
+📊 DeepMind ke saath kuch shehron mein ETA accuracy 50% tak behtar hui; Google ke mutabik 97%+ trips pe ETA sahi.
+📚 Sources: DeepMind blog (Sept 2020), Google Maps 101 (2020), Business Insider / ABC News (Simon Weckert, Feb 2020).
+
+💾 Save kar lo, interview mein kaam aayega. Tag karo us dost ko jo hamesha Maps pe bharosa karke jam mein phasta hai 😄
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#googlemaps #systemdesign #interviewquestions #trending #viral

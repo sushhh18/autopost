@@ -1,0 +1,16 @@
+Chaiwale ko ₹20 bheje, 2 second mein done ✅ Par andar kya hua? Interview mein ye poocha jaata hai 👇
+
+1️⃣ UPI ID ek address hai: NPCI (National Payments Corporation of India) uske bank se poochta hai ki ye ID kiski hai
+2️⃣ Aapka PIN encrypted jaata hai, payment app ko bhi nahi dikhta. Sirf aapka bank use check karta hai
+3️⃣ Aapke bank se debit, chaiwale ke bank mein credit, dono bank NPCI ko "done" bolte hain
+4️⃣ Paisa kata par pahuncha nahi? Payment fail maani jaati hai aur paisa apne aap wapas aata hai
+
+🎯 Interview mein bolo: "UPI ID se NPCI sahi bank dhoondhta hai, PIN sirf remitter bank verify karta hai, phir debit-credit aur NPCI switch dono ko jodta hai."
+
+📊 Sirf August 2026 mein 2,451 crore UPI transactions (NPCI data).
+📚 Sources: NPCI, UPI flow explainers (aswinmohan.me, Paytm FAQ), StartupTalky/Adda247 (Aug 2026 data).
+
+💾 Save kar lo. Us dost ko bhejo jo har payment pe "pahuncha kya?" poochta hai 😄
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#upi #systemdesign #interviewquestions #trending #viral

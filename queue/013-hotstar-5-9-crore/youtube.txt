@@ -1,0 +1,6 @@
+5.9 crore log ek saath live: Hotstar ka server kyun nahi gira? #shorts
+World Cup final 2023 mein 5.9 crore concurrent viewers. Hotstar ne kaise sambhala: traffic spikes, pre-scaling, load testing, CDN, graceful degradation aur client back-off. System design interview ke liye perfect example.
+
+Sources: Hotstar engineering blog, ByteByteGo, exchange4media / Inc42 (Nov 2023).
+
+#hotstar #systemdesign #interviewquestions

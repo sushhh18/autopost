@@ -1,0 +1,4 @@
+Lamba link sirf 7 letters mein kaise? URL shortener system design #shorts
+System design interview ka favourite sawaal: URL shortener. Counter ID, base62 encoding (62^7 = 3.5 lakh crore codes), key-value table, 301 vs 302 redirect, cache aur ID ranges. General system design concept.
+
+#systemdesign #interviewquestions #coding

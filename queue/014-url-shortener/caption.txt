@@ -1,0 +1,16 @@
+Itna lamba link sirf 7 letters mein kaise? 🔗 System design interview ka sabse favourite sawaal: URL shortener 👇
+
+1️⃣ Link compress nahi hota! Har naye link ko ek number milta hai: 1, 2, 3...
+2️⃣ Us number ko base62 mein likho (0-9, a-z, A-Z). 7 letters = 62^7 = 3.5 lakh crore+ unique links
+3️⃣ Table mein save: code → lamba link. Click pe server code dhoondhta hai aur browser ko redirect karta hai
+4️⃣ 301 = browser yaad rakh leta hai (fast), 302 = har click server pe (clicks gin sakte ho)
+5️⃣ Scale: hot links cache mein, aur kai servers ko alag ID ranges, taaki takraav na ho
+
+🎯 Interview mein bolo: "Counter ID ko base62 code banao, key-value table mein code → URL, redirect 301/302, aur scale ke liye cache + ID ranges."
+
+ℹ️ Ye general system design concept hai, kisi ek company ka confirmed setup nahi.
+
+💾 Save kar lo, interview se pehle ek baar dekh lena. Us dost ko bhejo jiska interview aane wala hai 🙌
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#systemdesign #interviewquestions #coding #trending #viral

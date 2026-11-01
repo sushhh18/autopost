@@ -1,0 +1,6 @@
+99 phones ne Google Maps ko bewakoof banaya! Maps ko jam ka pata kaise chalta hai? #shorts
+Berlin 2020: 99 phones ek thele mein, aur khaali sadak Maps pe laal. Google Maps traffic kaise detect karta hai: anonymous location data, average speed se colour, aur historical patterns + machine learning se ETA.
+
+Sources: DeepMind blog (2020), Google Maps 101 (2020), Business Insider / ABC News (Feb 2020).
+
+#googlemaps #systemdesign #interviewquestions
