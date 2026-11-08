@@ -1,0 +1,6 @@
+₹20 UPI payment: 2 second mein andar kya hota hai? #shorts
+UPI payment ka poora safar: UPI ID se NPCI sahi bank dhoondhta hai, PIN encrypted jaata hai aur sirf aapka bank verify karta hai, phir debit aur credit. Failed payment ka paisa wapas kaise aata hai, wo bhi.
+
+Sources: NPCI, UPI flow explainers, NPCI data via StartupTalky (Aug 2026: 2,451 crore transactions).
+
+#upi #systemdesign #interviewquestions

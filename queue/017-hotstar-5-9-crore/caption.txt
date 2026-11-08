@@ -1,0 +1,17 @@
+5.9 crore log, ek match, ek saath live 🏏 Server gira kyun nahi? Interview ka classic sawaal, jawab yahan 👇
+
+1️⃣ Cricket traffic dheere nahi, ek jhatke mein aata hai: bada wicket ya last over pe lakhon log ek saath app kholte hain
+2️⃣ Auto-scaling spike ke liye slow hai, isliye match se PEHLE hi extra servers chalu (pre-scaling) aur nakli bheed se load test
+3️⃣ Video CDN (Content Delivery Network) se aata hai, aapke shehar ke paas wale server se
+4️⃣ Phir bhi overload? Kam zaroori features dheere (scorecard kam refresh), apps ko "thoda ruko" signal, par video kabhi band nahi
+
+🎯 Interview mein bolo: "Spike se pehle pre-scale + load testing, video CDN se, aur overload pe graceful degradation + client back-off."
+
+📊 Disney+ Hotstar peak concurrency: 5.9 crore, India vs Australia, World Cup final, 19 Nov 2023.
+📷 Photos (WC final, 19 Nov 2023): Pantman2 (CC BY-SA 4.0), Ishi6181 (CC0), via Wikimedia Commons.
+📚 Sources: Hotstar engineering blog ("Scaling Is Not An Accident"), ByteByteGo, exchange4media / Inc42.
+
+💾 Save kar lo. Next India match pe dosto ko ye gyaan dena 😄
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#hotstar #systemdesign #interviewquestions #trending #viral
