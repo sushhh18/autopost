@@ -1,0 +1,4 @@
+Bubble Sort vs Merge Sort race - kaun jeetega? Twist end mein #shorts
+Same 40 numbers pe Bubble Sort vs Merge Sort ki asli race. Random list: Merge 164 vs Bubble 765 comparisons. Almost sorted list pe Bubble jeet jaata hai (77 vs 101) kyunki early exit. Bubble O(n^2), Merge O(n log n).
+
+#dsa #sorting #coding

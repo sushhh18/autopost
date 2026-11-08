@@ -1,0 +1,16 @@
+Galat sorting chuni toh code 25,000 guna slow! 🐢 Bubble vs Merge, cards se samjho + asli race (end ka twist miss mat karna 👀)
+
+1️⃣ Bubble Sort: do padosi compare karo, bada aage. Baar baar poori line ghoomta hai
+2️⃣ Merge Sort: list ko tukdon mein todo, phir sorted tareeke se jodo
+3️⃣ Random list pe race: Merge 164 comparisons, Bubble 765 (~5x zyada)
+4️⃣ 10 lakh numbers pe: Bubble ~50,000 crore comparisons vs Merge ~2 crore
+5️⃣ Twist: almost sorted list pe Bubble jeet gaya, 77 vs 101. Ek round mein 0 swap = list sorted, Bubble wahin ruk jaata hai
+
+🎯 Interview mein bolo: "Bubble O(n²), Merge O(n log n). Badi random list pe Merge; almost sorted pe early-exit wala Bubble bhi theek."
+
+ℹ️ Video mein dono algorithms asli code se chale hain, comparisons ki ginti real hai. 10 lakh wale numbers formula se nikale hain (n(n-1)/2 aur n log n), isliye "lagbhag".
+
+Tum Bubble ho ya Merge? Comment mein batao 👇
+Aise hi tech concepts ke liye follow karo @scaleit__up
+
+#dsa #sorting #coding #trending #viral

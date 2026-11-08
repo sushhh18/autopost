@@ -1,0 +1,24 @@
+Is ek link pe click... aur account khaali? 😱 Par link mein toh bank ka naam tha! Pehle test do 👇
+
+🧪 Quiz: inme se ASLI link kaunsa?
+A) https://yourbank.com.kyc-update.xyz/login
+B) https://yourbank.com/kyc
+C) https://yourbank.com@kyc-update.xyz
+
+Trick 👇
+1️⃣ https:// ke baad, pehle "/" tak ka hissa = website ka asli pata
+2️⃣ Usse right se padho: .com / .xyz / .co.in se theek pehle wala naam = asli malik
+3️⃣ Link mein @ dikhe? @ se pehle sab ignore, site @ ke baad wali khulti hai
+4️⃣ Spelling ek ek letter: yourbank vs yourbamk
+5️⃣ 🔒 lock = sirf encrypted connection, sachchi site nahi. 2019 ke end tak hi 74% phishing sites pe lock tha (APWG/PhishLabs)
+
+✅ Jawab: B. (A ka malik kyc-update.xyz hai, C mein @ wali trick)
+
+ℹ️ "yourbank.com" aur "kyc-update.xyz" example naam hain, koi asli bank nahi. Bank kabhi SMS link se password/OTP nahi maangta, doubt ho toh official app ya number use karo.
+
+Source: APWG Phishing Activity Trends 2019 (via PhishLabs)
+
+Quiz mein sahi jawab diya? Comment karo 👇 Aur ghar walon ko zaroor bhejo 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#cybersecurity #phishing #scamalert #trending #viral
