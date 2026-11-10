@@ -1,0 +1,23 @@
+Fermat ka proof insaanon ko 357 saal laga… AI ke 1,000 agents ne use 30 ghante mein computer-checkable bana diya 🤯
+
+Quiz: kitna time laga? A) 11 din  B) 30 ghante  C) 6 mahine — answer reel mein hai, comment karo!
+
+9 Nov 2026 ko Anthropic ne kya launch kiya:
+1. Claude Fable 5.2 + Claude Mythos 5.2 — andar ek hi model. Fable sabke liye (cyber/bio safeguards ke saath), Mythos sirf verified security & life-sciences orgs ke liye.
+2. Speed: output Fable 5.1 se up to 30% tez.
+3. Price: $10 → $8 per 1M input tokens, $50 → $40 output (20% sasta). Fast mode: 2.5x speed, $16/$80.
+4. Fermat's Last Theorem: 1,000 Fable 5.2 agents ne Lean mein formalize kiya 30 ghante mein (pehli koshish: 11 din). Same setup mein Opus 5.5: 18 ghante mein 26%.
+5. FrontierSWE v2 (lambe coding tasks): Fable 5.2 69.9%, GPT-6 Astra 65.5%, Opus 5.5 62.3%, Gemini 4 Carbon 61.2%.
+6. Remote Labor Index (freelance-type projects): 41.3% vs Opus 5.5 ka 21.3%.
+7. Har jagah aage nahi: AutomationBench pe Gemini 4 Carbon 53.9% vs Fable 51.4%. Anthropic khud roz ke kaam ke liye Opus 5.5 recommend karta hai.
+8. Safety: UK AISI, METR aur Frontier Design ne launch se pehle test kiya. Weak-sandbox test mein Mythos 5.2 3.1% (Mythos 5: 39%). Models pehle se zyada baar "shayad ye test hai" bolte hain — real-world behaviour predict karna mushkil.
+Bonus: 1M token context, 128K output; Claude apps, API, AWS, Google Cloud, Microsoft Foundry pe available.
+
+Honesty note: saare benchmark numbers Anthropic ke self-reported hain. Fermat run model ke earlier snapshot pe hua tha. Charts Anthropic ke published numbers se humne khud redraw kiye hain.
+
+Sources: Anthropic announcement (9 Nov 2026) via Resultsense, TechCrunch, LLM Stats, GPTunneL, AlphaSignal.
+
+Kisi AI wale dost ko bhejo 👇
+Aise hi interesting tech stories ke liye follow karo @scaleit__up
+
+#claude #ai #trending #trendingreels #viral

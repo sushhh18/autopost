@@ -1,0 +1,13 @@
+Claude Fable 5.2 & Mythos 5.2: Anthropic ne kya launch kiya? (Hindi) #shorts
+Anthropic ne 9 Nov 2026 ko Claude Fable 5.2 aur Claude Mythos 5.2 launch kiye — ek hi model, do naam.
+- Fable sabke liye (safeguards ke saath), Mythos sirf verified orgs ke liye
+- Up to 30% tez, 20% sasta ($8/$40 per 1M tokens)
+- 1,000 agents ne Fermat's Last Theorem 30 ghante mein formalize kiya (pehli koshish 11 din)
+- FrontierSWE v2: Fable 5.2 69.9% vs GPT-6 Astra 65.5%, Gemini 4 Carbon 61.2%
+- Har test mein aage nahi; roz ke kaam ke liye Anthropic Opus 5.5 suggest karta hai
+- Safety testing: UK AISI, METR
+
+Saare benchmark numbers Anthropic ke self-reported hain; charts unke published numbers se redraw kiye gaye hain.
+Sources: Anthropic announcement (9 Nov 2026), TechCrunch, Resultsense, LLM Stats.
+
+#claude #ai #anthropic #shorts
