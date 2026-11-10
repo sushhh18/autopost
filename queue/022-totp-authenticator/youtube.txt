@@ -1,0 +1,4 @@
+Authenticator ka 6-digit code bina internet ke kaise banta hai? (TOTP) #shorts
+Google Authenticator jaise apps ka code airplane mode mein bhi kaise match hota hai: shared secret (QR se), 30-second time steps, HMAC, aakhri 6 ank. RFC 6238 TOTP standard. Example asli calculation.
+
+#cybersecurity #2fa #techexplained

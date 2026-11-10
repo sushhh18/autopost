@@ -1,0 +1,19 @@
+Authenticator app ka 6-digit code bina internet ke kaise banta hai? 🔐 Airplane mode mein bhi! Server ko kaise pata sahi code kya hai? 👇
+
+1️⃣ Secret: QR code scan karte ho, usme ek lamba secret hota hai. Sirf ek baar phone aur server mein save, phir kabhi internet pe nahi jaata
+2️⃣ Ghadi: time ko 30-30 second ke dibbon mein baanto. 1970 se ab tak kitne dibbe beete (aaj ~6 crore), bas wo number
+3️⃣ Mixer: secret + wo number, HMAC naam ke mixer mein. Ek lambi line nikalti hai, input mein 1 ank badla toh poori line badal jaati hai
+4️⃣ Us line ka ek hissa kaato, aakhri 6 ank = aapka code
+5️⃣ Server bhi apne secret + apni ghadi se yahi hisaab lagata hai. Match = login ✅ (ghadi thodi aage-peeche ho toh aas-paas ke dibbe bhi check)
+
+Isi ko kehte hain TOTP (Time-based One-Time Password).
+
+⚠️ Ye code kabhi kisi ko mat batao. Bank ya koi company phone pe ye code nahi maangti.
+
+ℹ️ Video ka example asli calculation hai (demo secret, 8 Nov 2026 10:00 IST → code 259415). Ye general standard hai, kisi ek app ka andar ka setup nahi.
+Sources: RFC 6238 (TOTP), RFC 4226 (HOTP)
+
+Kisi dost ko bhejo jo OTP share kar deta hai 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#cybersecurity #2fa #techexplained #trending #viral
