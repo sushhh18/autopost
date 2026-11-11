@@ -1,0 +1,4 @@
+google.com type karte hi kya hota hai? DNS - internet ki phonebook #shorts
+Cache, resolver, root server, .com server, Google ka server: naam se IP address tak ka safar. Aur 2016 ka Dyn DNS attack jab Twitter, Netflix band ho gaye. Sources: RFC 1034/1035.
+
+#dns #howitworks #techexplained

@@ -1,0 +1,4 @@
+WhatsApp bhi aapka message kyun nahi padh sakta? End-to-end encryption #shorts
+Lock aur key ki trick se samjho: public key server pe, private key sirf phone mein, server ke paas sirf band box, aur har message pe nayi key. Source: WhatsApp Encryption Overview.
+
+#cybersecurity #whatsapp #encryption

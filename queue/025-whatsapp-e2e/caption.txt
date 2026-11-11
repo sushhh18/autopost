@@ -1,0 +1,18 @@
+WhatsApp ka message server se hokar jaata hai... phir bhi WhatsApp khud use padh nahi sakta! 🔐 Kaise? 👇
+
+1️⃣ Seedha bhejo toh beech wala (Wi-Fi, hacker, server) sab padh le
+2️⃣ Trick: message ko lock karo. Par key bhejoge toh raaste mein chori ho jayegi
+3️⃣ Isliye dost ka phone do cheezein banata hai: ek khula lock 🔓 aur uski key 🔑
+4️⃣ Khule lock ki copies server pe rakhi jaati hain, koi bhi le sakta hai. Key kabhi phone se bahar nahi jaati
+5️⃣ Aap dost ka lock lagate ho, click! Ab box sirf dost ki key se khulega. Server ke paas lock tha, key nahi
+6️⃣ Khula lock = public key, key = private key. Aur har message ke saath key badalti rehti hai
+
+⚠️ Ye lock raasta safe karta hai. Phone hi khula mil gaya toh koi bhi padh lega, phone lock rakho.
+
+ℹ️ Lock-key ek samjhaane ka tareeka hai; asli mein Signal Protocol (public/private keys + har message pe nayi key) use hota hai.
+Source: WhatsApp Encryption Overview (technical white paper)
+
+Kisi dost ko bhejo jo bolta hai "WhatsApp sab padhta hai" 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#cybersecurity #whatsapp #encryption #trending #viral

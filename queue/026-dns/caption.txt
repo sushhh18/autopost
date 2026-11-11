@@ -1,0 +1,18 @@
+google.com type karte hi page khul jaata hai... par computer ko naam samajh hi nahi aata! 🌐 Toh hota kya hai? 👇
+
+1️⃣ Har website ka ek number hota hai: IP address (jaise 142.250.x.x)
+2️⃣ Naam se number nikalne wali internet ki phonebook = DNS (Domain Name System)
+3️⃣ Step 1: phone apni memory (cache) dekhta hai
+4️⃣ Step 2: resolver (helper server) se poochta hai
+5️⃣ Resolver → root server ("dot com walon se poocho") → .com server ("Google ke server pe jao") → Google ka server: asli IP ✅
+6️⃣ Ye poora safar kuch milliseconds mein, aur jawab kuch der ke liye yaad rakha jaata hai
+
+💥 21 Oct 2016: ek badi DNS company (Dyn) pe attack hua. Twitter, Netflix, Reddit jaisi sites ghanton tak bahut logon ke liye nahi khuli. Internet chalu tha, bas phonebook band thi!
+
+ℹ️ Screen pe IP aur milliseconds example hain.
+Sources: RFC 1034/1035 (DNS), 2016 Dyn cyberattack reports
+
+Kisi dost ko bhejo jo bolta hai "net chal raha hai par site nahi khul rahi" 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#dns #howitworks #techexplained #trending #viral
