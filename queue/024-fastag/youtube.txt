@@ -1,0 +1,11 @@
+FASTag kaise kaam karta hai? Barrier khulne tak paise kate hi nahi! (Hindi) #shorts
+Car toll pe ruki bhi nahi aur ₹95 kat gaye — par toll ko pata kaise chala ye tumhari car hai?
+- Passive RFID chip: battery nahi, reader ki waves se jaagti hai aur ID bhejti hai
+- Toll plaza pehle se download ki hui exception list (blacklist / low balance) se check karke barrier kholta hai
+- Paise baad mein: toll ka bank → NPCI NETC → tumhara bank → SMS (usually 15 min ke andar)
+- Ye hai async processing — system design ka important idea
+- Blacklisted / low balance tag → double toll; galat deduction → chargeback (15 din cooling period)
+
+₹95 example toll hai. Sources: NPCI NETC, NETC Procedural Guidelines v2.1 (IHMCL), NHAI FASTag FAQ, NPCI data (Sept 2026).
+
+#fastag #systemdesign #tech #shorts

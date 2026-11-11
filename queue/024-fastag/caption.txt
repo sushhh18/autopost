@@ -1,0 +1,23 @@
+Car toll pe ruki bhi nahi… aur ₹95 kat gaye 🚗💨 Toll ko pata kaise chala ye TUMHARI car hai?
+
+Quiz: Barrier khulne se pehle kya tumhare account se paise kat chuke hote hain?
+A) Haan  B) Nahi, baad mein katte hain  C) Toll wala manually check karta hai
+Answer reel mein hai — comment karo!
+
+FASTag kaise kaam karta hai:
+1. Pehchaan: windshield sticker mein passive RFID chip + antenna hai, koi battery nahi. Reader ki radio waves ki energy se chip jaagti hai aur apni ID bhej deti hai.
+2. Permission: toll plaza ke paas pehle se ek exception list hoti hai (blacklisted / low balance tags). Tumhari ID list mein nahi → barrier khul jaata hai. Bank se abhi kuch poocha hi nahi gaya!
+3. Payment baad mein: toll plaza → toll ka bank (acquirer) → NPCI ka NETC switch → tumhara bank (issuer) → debit + SMS. Usually 15 min ke andar online process hota hai, isliye SMS kabhi late aata hai.
+4. Isko kehte hain async processing: jo zaruri hai abhi, baaki baad mein.
+5. Risk: tag 60 min se zyada blacklisted / low balance aur read ke 10 min baad tak fix nahi → payment decline, cash mein double toll. Galat deduction pe chargeback, 15 din ke cooling period ke baad.
+
+India mein roz ~1.1 crore FASTag transactions hote hain (Sept 2026: 33.7 crore transactions, ₹7,096 crore).
+
+Honesty note: ₹95 sirf example toll hai, screen pe dikhaye tag IDs bhi example hain. Steps NPCI/NETC ke published guidelines pe based hain.
+
+Sources: NPCI NETC product overview, NETC Procedural Guidelines v2.1 (IHMCL), NHAI FASTag FAQ, NPCI data via MediaNama (Oct 2026).
+
+Jis dost ka FASTag hamesha low balance pe rehta hai, use bhejo 👇
+Aise hi interesting tech stories ke liye follow karo @scaleit__up
+
+#fastag #tech #trending #trendingreels #viral
