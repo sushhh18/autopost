@@ -1,0 +1,4 @@
+Sliding Window in 15 seconds (3D) | IPL max runs in 3 overs #shorts
+Naya over andar, purana bahar: har window ka sum O(1) mein, poora O(n). Python code ke saath.
+
+#dsa #slidingwindow #coding

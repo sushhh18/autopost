@@ -1,0 +1,4 @@
+Two Sum (sorted) in 15 seconds (3D) | Two Pointers #shorts
+Jod zyada to R peeche, kam to L aage: 3 checks vs brute force ke 21 pairs. Python code ke saath.
+
+#dsa #twosum #coding

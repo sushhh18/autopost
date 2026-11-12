@@ -1,0 +1,14 @@
+Sliding Window in 15 sec 🏏 IPL: lagatar 3 overs mein max runs kitne?
+
+🪟 Pehle 3 overs ka sum nikalo
+➕ Window aage: naya over jodo
+➖ Purana over ghatao
+⭐ Har baar best update karo
+
+Har baar 3 overs dobara jodne ki zaroorat nahi, O(n) mein ho gaya ⚡
+(Runs example hain)
+
+💾 Interview se pehle save kar lo
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #slidingwindow #coding #interviewprep #viral

@@ -1,0 +1,4 @@
+Palindrome Check in 15 seconds (3D) | Two Pointers #shorts
+Ek pointer shuru se, ek aakhir se: MALAYALAM ke 9 letters, sirf 4 checks. Python code ke saath.
+
+#dsa #twopointers #coding

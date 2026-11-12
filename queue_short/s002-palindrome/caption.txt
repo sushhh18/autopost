@@ -1,0 +1,13 @@
+Palindrome check in 15 sec 🔁 MALAYALAM ulta bhi same hai?
+
+👈👉 Do pointers: ek shuru se, ek aakhir se
+✅ Dono letters same? Andar chalo
+❌ Kahin alag? Wahi pe False
+⚡ Sirf aadhe pairs check, O(n) time, O(1) space
+
+9 letters, sirf 4 checks 🤯
+
+💾 Interview se pehle save kar lo
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #twopointers #coding #interviewprep #viral

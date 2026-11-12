@@ -1,0 +1,13 @@
+Two Sum in 15 sec 🎯 Sorted list mein do number jinka jod 14 ho
+
+👈 L shuru se, R aakhir se 👉
+📈 Jod zyada? R peeche lao
+📉 Jod kam? L aage badhao
+✅ Barabar? Mil gaya!
+
+Two pointers: 3 checks. Brute force: 21 pairs 🤯
+
+💾 Interview se pehle save kar lo
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #twosum #coding #interviewprep #viral

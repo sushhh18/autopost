@@ -1,0 +1,13 @@
+Valid Brackets in 15 sec 🧱 {[()]} sahi band hue ya nahi?
+
+📥 Khula bracket? Stack pe rakho
+📤 Band bracket? Stack ka upar wala uski jodi hona chahiye
+❌ Jodi nahi mili? False
+✅ End mein stack khaali = Valid
+
+Har code editor yahi karta hai jab bracket laal ho jaata hai 👀
+
+💾 Interview se pehle save kar lo (LeetCode 20)
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #stack #coding #interviewprep #viral

@@ -1,0 +1,4 @@
+Valid Parentheses in 15 seconds (3D Stack) | LeetCode 20 #shorts
+Khula bracket stack pe, band bracket pe upar wala match karo, end mein stack khaali = valid. Python code ke saath.
+
+#dsa #stack #coding
