@@ -1,0 +1,40 @@
+name: YouTube backfill (old reels, 2 per day)
+
+on:
+  schedule:
+    - cron: "47 4 * * *"    # 10:17 IST
+    - cron: "13 11 * * *"   # 16:43 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: post-reel
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Upload one old reel
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_SKIP: ${{ vars.YT_SKIP }}
+        run: python scripts/yt_backfill.py
+      - name: Save log
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          if [ -f yt_posted.json ] && [ -n "$(git status --porcelain yt_posted.json)" ]; then
+            git add yt_posted.json
+            git commit -m "YouTube backfill"
+            git pull --rebase
+            git push
+          fi
