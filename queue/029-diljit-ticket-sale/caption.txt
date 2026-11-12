@@ -1,0 +1,19 @@
+Diljit ka AURA India Tour: Delhi sold out, Ahmedabad presale ek din mein khatam! 🎟️ Par itni bheed mein ticket site crash kyun nahi hoti? 👇
+
+📊 Bheed kitni hoti hai? Coldplay ki Mumbai sale (Sep 2024) mein 1.3 crore log online queue mein the, aur tickets sirf ~1.5 lakh. Us din site ~20 minute down bhi hui thi.
+
+1️⃣ Waiting room: sabko ek saath andar nahi bhejte. Tumhe queue number milta hai, aur thode-thode log andar jaate hain (bank token system jaisa)
+2️⃣ Seat lock: seat chuni to wo kuch minute sirf tumhare naam pe lock, timer ke saath
+3️⃣ Ek seat, ek lock: do log ek saath dabayein to database ek hi ko lock deta hai. Doosre ko "not available"
+4️⃣ Timer khatam: payment nahi hui to seat wapas sale mein
+5️⃣ Limit: Coldplay sale mein ek user max 4 tickets
+
+💡 Agli baar ticket ki line mein khade ho, yaad rakhna: wo line hi server ko bacha rahi hai.
+
+ℹ️ Waiting room, seat lock aur timeout general system design concept hain; BookMyShow ne apna exact system public nahi kiya. Queue number example hai.
+Sources: The News Mill & Billboard India (AURA India Tour 2026), Free Press Journal & Business Today (Coldplay sale, 22 Sep 2024)
+
+Us dost ko bhejo jo har concert sale mein "queue mein hun bhai" bolta hai 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#diljitdosanjh #systemdesign #bookmyshow #trending #viral

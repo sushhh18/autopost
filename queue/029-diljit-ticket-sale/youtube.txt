@@ -1,0 +1,4 @@
+Diljit ka tour sold out! 1.3 crore log line mein, ticket site crash kyun nahi hoti? #shorts
+Waiting room, seat lock, ek seat ek insaan, aur timer khatam to seat wapas: badi ticket sale ka system design. General concept; BookMyShow ka exact system public nahi hai. Sources: Free Press Journal, Business Today, Billboard India.
+
+#diljitdosanjh #systemdesign #bookmyshow
