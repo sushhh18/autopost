@@ -1,0 +1,40 @@
+name: YouTube upload (manual / test / backfill)
+
+on:
+  workflow_dispatch:
+    inputs:
+      folder:
+        description: "Folder to upload, e.g. posted/029-diljit-ticket-sale or queue/026-dns"
+        required: true
+      privacy:
+        description: "public / unlisted / private (test with private)"
+        default: private
+
+permissions:
+  contents: write
+
+concurrency: post-reel
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ inputs.privacy }}
+        run: python scripts/yt_upload.py "${{ inputs.folder }}"
+      - name: Save log
+        if: inputs.privacy == 'public'
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          if [ -f yt_posted.json ]; then git add yt_posted.json; git commit -m "YouTube: ${{ inputs.folder }}" || true; git pull --rebase; git push; fi
