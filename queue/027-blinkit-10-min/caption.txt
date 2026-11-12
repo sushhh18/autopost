@@ -1,0 +1,19 @@
+Doodh order kiya... aur 10 minute mein darwaaze pe! 🛵 Par ye possible kaise hai? 👇
+
+1️⃣ Normal online shopping: saamaan shehar ke bahar bade warehouse se aata hai, ghante ya din lagte hain
+2️⃣ Trick: saamaan tumhare order se PEHLE hi tumhare paas rakh do
+3️⃣ Dark store: tumhare area ka mini warehouse, customer andar nahi jaate, sirf orders pack hote hain
+4️⃣ Har store bas 2-3 km serve karta hai. June 2026 tak Blinkit ke 2,400+ stores the
+5️⃣ Prediction: purane orders se pata chalta hai kahan, kab, kya bikega (subah doodh, match day chips, baarish mein Maggi)
+6️⃣ Fast picking: shelf codes + phone pe raasta, order ~2 minute mein pack
+7️⃣ Rider pehle se store pe ready: 2 min packing + 6-8 min ride ≈ 10 minute
+
+💡 10 minute delivery speed ka nahi, distance khatam karne ka khel hai.
+
+ℹ️ Prediction, shelf codes aur rider assignment general quick-commerce concept hain; Blinkit ne apna exact system publish nahi kiya. Timings example hain.
+Sources: Outlook Business (Blinkit Q1 FY27 store count), ITLN (Blinkit dark store, 2.5-3 km radius, ~2 min packing)
+
+Us dost ko bhejo jo raat 2 baje bhi Blinkit se chips mangwata hai 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#blinkit #systemdesign #howitworks #trending #viral

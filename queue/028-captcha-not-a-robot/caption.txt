@@ -1,0 +1,19 @@
+Sirf ek box tick kiya... aur website ne pehchaan liya ki tum insaan ho ya robot! 🤖 Par ek tick se kaise? 👇
+
+1️⃣ Bots fake accounts banate hain, tickets black karte hain. Inhe rokne ke liye CAPTCHA
+2️⃣ Purana CAPTCHA: tedha-medha text. AI ne padhna seekh liya
+3️⃣ Asli test tick se PEHLE hota hai, chupchaap
+4️⃣ Signal 1: mouse ki chaal. Insaan hilta, rukta, curve banata hai; bot seedha jump
+5️⃣ Signal 2: cookies + browser history. Purana, jaana-pehchaana browser = bharosa
+6️⃣ Signal 3: IP address. Ek jagah se hazaaron requests = shak
+7️⃣ Sab milke ek score (0 se 1). Achcha score = green tick, kam score = traffic light wali images
+
+😮 2024 mein ETH Zurich ke researchers ke AI ne reCAPTCHA v2 ke image tests 100% solve kar diye. Isliye ab asli ladai behaviour pe hai.
+
+ℹ️ Exact signals aur weights public nahi hain; ye general risk-analysis concept hai.
+Sources: "Breaking reCAPTCHAv2" (ETH Zurich, 2024), Google reCAPTCHA v3 docs
+
+Us dost ko bhejo jo 5 baar traffic light select karke bhi fail ho jaata hai 📤
+Aise hi tech stories ke liye follow karo @scaleit__up
+
+#captcha #cybersecurity #techexplained #trending #viral
