@@ -15,7 +15,8 @@ from datetime import datetime, timezone
 import requests
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-QUEUE, POSTED = ROOT / "queue", ROOT / "posted"
+QDIR = os.environ.get("QUEUE_DIR", "queue")          # "queue" = voice reels, "queue_short" = 15-sec 3D series
+QUEUE, POSTED = ROOT / QDIR, ROOT / "posted"
 LOG = ROOT / "posted.json"
 VER = os.environ.get("GRAPH_VERSION", "v26.0")
 API = f"https://graph.instagram.com/{VER}"
@@ -67,7 +68,7 @@ def main():
     tags = _re.findall(r"#\w+", caption)
     if len(tags) > 5:
         die(f"{len(tags)} hashtags found. Instagram now allows max 5 per post (Dec 2025). Trim caption.txt")
-    url = f"{BASE}/queue/{item.name}/reel.mp4"
+    url = f"{BASE}/{QDIR}/{item.name}/reel.mp4"
     print(f"Next reel: {item.name}\nURL: {url}")
     wait_public(url)
 
@@ -76,7 +77,7 @@ def main():
 
     params = dict(media_type="REELS", video_url=url, caption=caption, share_to_feed="true")
     if (item / "cover.jpg").exists():
-        params["cover_url"] = f"{BASE}/queue/{item.name}/cover.jpg"
+        params["cover_url"] = f"{BASE}/{QDIR}/{item.name}/cover.jpg"
         wait_public(params["cover_url"])
         print("Cover:", params["cover_url"])
     try:

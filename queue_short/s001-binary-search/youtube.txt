@@ -1,0 +1,4 @@
+Binary Search in 15 seconds (3D) | DSA #shorts
+Sorted list ka beech wala dekho, aadha hissa har step pe khatam: 11 numbers mein 4 steps, 10 lakh mein ~20. Python code ke saath.
+
+#dsa #binarysearch #coding

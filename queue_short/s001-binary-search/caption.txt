@@ -1,0 +1,13 @@
+Binary Search in 15 sec 🔍 11 numbers, sirf 4 steps! Linear search ko lagte 8.
+
+🧠 Trick: sorted list ka beech wala dekho
+➡️ Target bada hai? Left wala aadha bekaar
+⬅️ Target chhota hai? Right wala aadha bekaar
+🔁 Har step pe aadha kaam khatam, isliye O(log n)
+
+10 lakh numbers mein bhi sirf ~20 steps 🤯
+
+💾 Interview se pehle save kar lo
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #binarysearch #coding #interviewprep #viral
