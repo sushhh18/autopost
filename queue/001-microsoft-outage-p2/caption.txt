@@ -1,0 +1,17 @@
+Sirf kuch servers band... aur Microsoft DOWN! 🁢 Part 2: Domino effect 👇
+
+1️⃣ Traffic normal tha, bas kuch servers achanak band ho gaye
+2️⃣ Unka load baaki servers pe aaya, wo bhi overload hone lage
+3️⃣ Toll plaza socho: 10 mein se 3 booth band, line lambi, baaki bhi jaam
+4️⃣ Health check (servers ko check karne wala system) bhi fail, theek server bhi "beemar" dikhe
+5️⃣ Servers wapas chalu kiye, traffic aate hi phir band
+6️⃣ Fix: traffic thoda-thoda andar, naye updates pause
+
+💡 Isse kehte hain cascading failure: ek failure doosre ko bhi down kar deta hai.
+
+ℹ️ Microsoft ke statements par based; toll plaza aur load % samjhane ke liye example hain. Info 13 Nov subah tak ki.
+Sources: Microsoft 365 Status (via ABC7, Forbes Australia, Tom's Guide)
+
+Part 3 (latest update) ke liye follow @scaleit__up
+
+#microsoft #systemdesign #technews #trending #viral

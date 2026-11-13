@@ -1,0 +1,4 @@
+Microsoft DOWN kaise hua? Domino effect (cascading failure) explained, Part 2 #shorts
+Kuch servers band, load baaki pe, health check fail, restart pe phir band: cascading failure. Toll plaza example ke saath. Based on Microsoft's status updates (13 Nov 2026).
+
+#microsoft #systemdesign #technews
