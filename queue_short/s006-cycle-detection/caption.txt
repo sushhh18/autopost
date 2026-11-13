@@ -1,0 +1,15 @@
+Cycle Detection in 15 sec 🐢🐇 Linked list mein loop hai ya nahi?
+
+🐢 Slow pointer (kachhua): 1 kadam
+🐇 Fast pointer (khargosh): 2 kadam
+🔁 Loop hai? Fast ghoom ke slow ko pakad lega
+✅ Mil gaye = cycle hai
+❌ Fast list ke end tak pahunch gaya = koi loop nahi
+
+Extra memory? Zero. O(n) time, O(1) space 🤯
+(Floyd's Tortoise & Hare, LeetCode 141)
+
+💾 Interview se pehle save kar lo
+👉 Har din ek naya concept, 15 sec mein. Follow @scaleit__up
+
+#dsa #linkedlist #coding #interviewprep #viral
