@@ -1,0 +1,46 @@
+name: Post next carousel
+
+on:
+  schedule:
+    # 11:07 IST every day (05:37 UTC). Does nothing if queue_carousel/ is empty.
+    - cron: "37 5 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Test run: create the carousel but don't publish"
+        type: boolean
+        default: true
+
+concurrency: post-reel
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - id: post
+        name: Publish
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          PAGES_BASE: ${{ vars.PAGES_BASE }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
+        run: python scripts/post_carousel.py
+      - name: Record what was posted
+        if: steps.post.outputs.posted != ''
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          git pull --rebase
+          git add -A queue_carousel posted posted.json
+          git commit -m "Posted carousel ${{ steps.post.outputs.posted }}"
+          git push
+          echo "### Posted ✅ ${{ steps.post.outputs.permalink }}" >> "$GITHUB_STEP_SUMMARY"
