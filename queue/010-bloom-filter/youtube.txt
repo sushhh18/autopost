@@ -1,0 +1,4 @@
+Username "taken" itni jaldi kaise? Bloom filter explained #shorts
+300 crore naamon mein type karte hi "taken"? Database ke aage ek chhota guard: Bloom filter. Hash functions, switches, false positive, sab ek kahani mein. General system design concept.
+
+#systemdesign #bloomfilter #coding

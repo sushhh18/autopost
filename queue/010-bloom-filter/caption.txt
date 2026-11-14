@@ -1,0 +1,20 @@
+Username type karte-karte hi "taken" aa gaya... 300 crore naamon mein itni jaldi kaise? 👇
+
+1️⃣ Ye check har letter pe hota hai, aur lakhon log ek saath signup karte hain
+2️⃣ Har baar database se poochhna = database pe bahut load
+3️⃣ Isliye database ke aage ek chhota guard: Bloom filter
+4️⃣ Switches ki ek line. Naya naam aaya to 3 hash functions, 3 switch ON
+➕ Ek hash kyun nahi? Do naam ek switch pe takra sakte hain, teeno pe ek saath bahut mushkil
+5️⃣ Check: ek bhi switch OFF = naam pakka available (database se poochha bhi nahi)
+6️⃣ Teeno ON = shayad taken, tab database se confirm
+7️⃣ Kabhi doosre naam milke wahi switch ON kar dete hain: false positive
+8️⃣ 300 crore naam: seedha store ~45 GB, Bloom filter (1% galti) ~3.6 GB
+
+💡 Bloom filter "nahi" pe kabhi galat nahi hota, "haan" pe kabhi-kabhi. Interview mein bhi poochha jaata hai.
+
+ℹ️ Instagram ne apna tareeka publish nahi kiya. Ye general system design concept hai. Switches aur hash positions sirf samjhaane ke liye hain; 1% galti ke liye asli mein ~7 hash lagte hain. 45 GB ka andaaza ~15 characters per naam maan ke.
+
+Kisi dost ko bhejo jiska interview aane wala hai 📩
+Aise hi interesting concepts ke liye follow @scaleit__up
+
+#systemdesign #bloomfilter #coding #trending #viral
