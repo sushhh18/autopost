@@ -50,5 +50,6 @@ jobs:
           git add -A queue posted posted.json
           if [ -f yt_posted.json ]; then git add yt_posted.json; fi
           git commit -m "Posted ${{ steps.post.outputs.posted }}"
+          git pull --rebase
           git push
           echo "### Posted ✅ ${{ steps.post.outputs.permalink }}" >> "$GITHUB_STEP_SUMMARY"

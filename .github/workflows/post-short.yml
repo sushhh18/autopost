@@ -48,9 +48,9 @@ jobs:
         run: |
           git config user.name "reels-bot"
           git config user.email "reels-bot@users.noreply.github.com"
-          git pull --rebase
           git add -A queue_short posted posted.json
           if [ -f yt_posted.json ]; then git add yt_posted.json; fi
           git commit -m "Posted short ${{ steps.post.outputs.posted }}"
+          git pull --rebase
           git push
           echo "### Posted ✅ ${{ steps.post.outputs.permalink }}" >> "$GITHUB_STEP_SUMMARY"
