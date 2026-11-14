@@ -1,0 +1,18 @@
+Outlook ~24 ghante down rehne ke baad wapas! Par asli galti kya thi? Part 3: latest update 👇
+
+1️⃣ 74 deshon se complaints; Singapore aur Japan ke government systems bhi hile
+2️⃣ India: IndiGo aur Akasa ka email support ruka, Delhi Airport ne advisory di
+3️⃣ Wajah (Microsoft): pehle ke ek network capacity upgrade mein issue, jo baad ke network change ke saath saamne aaya
+4️⃣ Servers ka core process overwhelm hua, servers ne jawab dena band kiya
+5️⃣ Hacking nahi: "not related to cyber or AI / agents"
+6️⃣ Fix: patch + region by region dheere-dheere recovery
+7️⃣ Atke emails ka timeout 48 ghante, taaki mail delete na ho
+
+💡 Sab servers ek saath chalu karte, to sab users ek saath reconnect karte aur servers phir down ho jaate. Isse kehte hain thundering herd.
+
+ℹ️ "Thundering herd" ek general system design concept hai, Microsoft ka apna term nahi. Wiring wala example samjhane ke liye hai. Microsoft ne abhi issue officially resolved nahi kaha; full post-incident report baaki hai. Info 14 Nov subah tak ki.
+Sources: Microsoft 365 Status (X), MacRumors, TechRadar, Al Jazeera, Gulf News
+
+Part 1 aur Part 2 profile pe. Full report aate hi update ke liye follow @scaleit__up
+
+#microsoft #outlook #technews #trending #viral
