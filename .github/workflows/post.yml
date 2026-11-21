@@ -2,8 +2,8 @@ name: Post next reel
 
 on:
   schedule:
-    # 19:23 IST every day (13:53 UTC). Change to taste: https://crontab.guru
-    - cron: "53 13 * * *"
+    # 11:23 IST every day (05:53 UTC)
+    - cron: "53 5 * * *"
   workflow_dispatch:
     inputs:
       dry_run:

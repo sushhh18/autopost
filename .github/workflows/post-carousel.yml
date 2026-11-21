@@ -3,7 +3,7 @@ name: Post next carousel
 on:
   schedule:
     # 11:07 IST every day (05:37 UTC). Does nothing if queue_carousel/ is empty.
-    - cron: "37 5 * * *"
+    - cron: "37 12 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
