@@ -1,0 +1,17 @@
+Ek hafte mein 1.4 crore outage complaints! Outlook down, America ki saari flights ruki, bank apps band. Aur sabse pehle pakda Downdetector ne. Par kaise? 👇
+
+1️⃣ Downdetector khud servers check nahi karta, logon ki complaints ginta hai
+2️⃣ Jaise poori gali ki light jaaye to power cut, ek ghar ki jaaye to fuse
+3️⃣ Har app ka ek normal level (baseline) hota hai
+4️⃣ Complaints baseline se kai guna = outage ka alarm
+5️⃣ Is hafte: Chase bank pe normal se 165 guna, Microsoft pe 78 lakh reports
+6️⃣ Ek din mein 67 services flag, aam din mein sirf 16
+7️⃣ Catch: complaint ≠ confirmed failure. Isliye companies health checks aur status page rakhti hain
+8️⃣ Downdetector ke expert: sab ek ittefaq tha, koi ek hack nahi
+
+ℹ️ Numbers Downdetector (Ookla) ke data se, Fortune aur NBC News ki reports mein. Downdetector ka exact algorithm public nahi; baseline aur spike general concept hai.
+
+Aakhri baar aapne Downdetector kab khola tha? Comment karo 👇
+Aise hi interesting concepts ke liye follow @scaleit__up
+
+#technews #outage #microsoft #trending #viral
