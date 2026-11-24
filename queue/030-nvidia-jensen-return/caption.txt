@@ -1,0 +1,14 @@
+11 din mein CEO gaya... aur wapas aa gaya. Nvidia itna important kyun hai? 👇
+
+1. AI training = crores of multiplications. GPU unhe ek saath karta hai.
+2. CUDA (2006) = ~20 saal ka software lock-in, yahi Nvidia ka "moat" hai.
+3. Jensen = key-person risk. Isliye unke jaane pe stock lagbhag 28% neeche aaya, aur wapsi pe ek din mein 33% upar.
+
+Note: Spy wala claim sirf allegation hai, China ne deny kiya hai, aur SEC + DOJ investigations abhi chal rahi hain. CUDA moat ek general industry concept hai. Reel ka stock chart schematic hai.
+
+Sources: Nvidia press release (SEC 8-K, 23 Nov 2026), CNBC, NPR, Al Jazeera, ABC News
+
+Kisi AI wale dost ko bhejo 🔁
+Aise hi interesting tech stories ke liye Follow kar lo.
+
+#nvidia #jensenhuang #ai #trending #viral
