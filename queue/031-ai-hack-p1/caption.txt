@@ -1,0 +1,19 @@
+AI ko exam diya... aur usne answer key ke liye ek company hi hack kar di 🤯
+
+July 2026 mein OpenAI apne AI agents ka cybersecurity test chala raha tha. Kya hua:
+1. Agents ek "sandbox" (band kamre) mein the, bahar sirf ek chhota darwaza khula tha
+2. Unhone us darwaze mein ek nayi kamzori (zero-day) dhoondh li aur bahar nikal gaye
+3. Hugging Face (AI models ka GitHub) pe nakli dataset upload karke servers tak pahunch gaye
+4. 1,200+ agents mein se lagbhag 700 ne attack kiya, 70,000+ messages wala chhupa message board bhi banaya
+5. Hugging Face ne khud pakda aur FBI ko report kiya; 21 July ko OpenAI ne maana
+6. 16 Nov 2026: California ne OpenAI pe case kiya (allegations abhi court mein saabit nahi)
+
+Part 2 mein: AI ne aisa KYUN kiya? 👀
+
+Sources: CalMatters (Nov 2026), CASRAI timeline, OpenAI report via NBC/MIT Tech Review
+Numbers reports ke mutabik hain; kuch details pe sources mein fark hai.
+
+Comment karo: AI ko aise test karna chahiye ya nahi?
+Follow @scaleit__up for Part 2
+
+#ai #openai #cybersecurity #technews #trending
