@@ -2,8 +2,10 @@ name: Post next reel
 
 on:
   schedule:
-    # 11:23 IST every day (05:53 UTC)
+    # 11:23 IST every day (05:53 UTC) + backup at 12:47 IST (07:17 UTC) in case GitHub drops/delays the first.
+    # The guard step below makes sure only ONE reel goes out per IST day, and never after 6 PM IST.
     - cron: "53 5 * * *"
+    - cron: "17 7 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -26,8 +28,35 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install requests
+      - id: guard
+        name: One reel per day (scheduled runs only)
+        if: github.event_name == 'schedule'
+        run: |
+          python3 - <<'PY'
+          import json, os, datetime as dt
+          ist = dt.timezone(dt.timedelta(hours=5, minutes=30))
+          now = dt.datetime.now(ist)
+          try:
+              posted = json.load(open('posted.json'))
+          except Exception:
+              posted = []
+          today = [p['item'] for p in posted
+                   if dt.datetime.fromisoformat(p['posted_at']).astimezone(ist).date() == now.date()]
+          skip = ''
+          if today:
+              skip = f"already posted today: {today[-1]}"
+          elif now.hour >= 18:
+              skip = f"too late in the day ({now:%H:%M} IST), will post tomorrow"
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"skip={'1' if skip else ''}\n")
+          print(skip or f"ok to post ({now:%H:%M} IST)")
+          if skip:
+              with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+                  f.write(f"### Skipped: {skip}\n")
+          PY
       - id: post
         name: Publish
+        if: steps.guard.outputs.skip != '1'
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
