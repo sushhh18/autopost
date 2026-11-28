@@ -1,0 +1,19 @@
+Ek rewrite se 70% CPU bach gaya... aur code likha AI ne 🤯
+
+Anthropic ne Claude ki Messages API Python se Rust mein shift ki:
+1. Claude agents ne pehla Rust version lagbhag 1 hafte mein likha
+2. Par prove karne mein mahine lage ki bilkul purane jaisa chalta hai
+3. Tareeka: shadow traffic. Asli requests dono versions pe, Python ka jawab = answer key (dhaba mein naya cook wali analogy 🍛)
+4. Mismatch aaya to agents ne fix kiya, har fix engineers ne check kiya
+5. September mein switch, zero outage
+6. Anthropic ke mutabik: ~70% kam CPU aur 80%+ kam memory per request
+
+Sabak: AI code jaldi likhta hai, par verification hi asli engineering hai.
+
+Sources: Anthropic (25 Nov post) via The Next Web, Unite.AI, ExplainX
+Note: Oct podcast mein team ne ~40-50% CPU bataya tha; official post 70% kehta hai.
+
+Us dost ko bhejo jo kehta hai "AI se coding khatam" 👇
+Follow @scaleit__up
+
+#ai #rust #python #softwareengineering #trending

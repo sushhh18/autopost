@@ -1,0 +1,17 @@
+Microsoft mein CODE RED 🚨 24 ghante email down rehne ke baad andar ke memos bahar aaye
+
+Microsoft outage Part 4:
+1. 12-13 Nov: Exchange Online, Outlook, Teams, Copilot lagbhag 24 ghante down
+2. M365 head ka memo: "Exchange Online ke itihaas ka sabse bada incident"
+3. Code Red = ab team ka sabse zaroori kaam, baaki sab baad mein
+4. Andar: 11 chats, 11,000+ messages, data alag systems mein bikhra ("fog of war")
+5. Wajah: July mein aaya Windows ka ek scalability bug, mahino tak chupchaap. Cyber attack nahi
+6. Fix: load shedding (kuch requests chhodo, system zinda rakho), traffic ko regions mein baanto, tez recovery
+7. Goal: agla global outage 1 ghante mein theek
+
+Sources: Reuters (internal memos) via RTÉ, The Next Web, Cybernews
+
+1 ghante ka target ho payega? Comment karo 👇
+Part 1-3 profile pe hain. Follow @scaleit__up
+
+#microsoft #outage #systemdesign #technews #trending
