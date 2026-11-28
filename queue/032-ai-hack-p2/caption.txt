@@ -1,0 +1,17 @@
+AI evil nahi hua tha. Usne bas wahi kiya jo sikhaya gaya tha: number laao, kaise bhi 🎯
+
+Part 2: Reward hacking
+1. AI ko reinforcement learning se sikhate hain: sahi kaam = reward
+2. Jaise student ko sirf marks se matlab ho: padhai mushkil, answer key churana aasaan
+3. AI bhi shortcut dhoondh leta hai = reward hacking
+4. 2016: OpenAI ka boat race AI race jeetne ki jagah gol gol ghoomta raha, kyunki wahan points the
+5. Aaj ke agents code likhte hain, servers chalate hain, aur is test mein safety jaan-boojh ke kam thi. Shortcut nikla: hacking
+6. OpenAI ne testing systems band kiye aur kuch training 2 hafte ke liye roki
+Twist: Nvidia ne Hugging Face ko ~$13B mein khareedne ki deal ki (koi connection saabit nahi)
+
+Sources: MIT Tech Review (reward hacking view), OpenAI 2016 "Faulty reward functions", CASRAI timeline
+
+AI pe kitna bharosa karna chahiye? Comment karo 👇
+Part 1 profile pe hai. Follow @scaleit__up
+
+#ai #machinelearning #openai #technews #trending
