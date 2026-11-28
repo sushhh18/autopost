@@ -1,0 +1,22 @@
+SAP ka code badal diya gaya... aur password chura ke nahi 😳
+
+Is hafte SAP ne security incident confirm kiya. Kya pata hai:
+1. SAP ne maana: GitHub pe suspicious activity dikhi, turant kadam uthaye
+2. SAP ke mutabik customer business data tak pahunch ka koi saboot nahi mila
+3. Reports (Der Spiegel) ke mutabik: employees ke authentication tokens chura ke GitHub pe source code copy aur badla gaya. SAP ne ye details confirm nahi ki hain
+4. Reports: GitHub access limit kiya, automated processes roke, signing keys badli
+5. Abhi tak kisi report mein nahi ki badla hua code customers tak pahuncha
+
+Concept:
+🔑 Token = office ka ID card. Login ke baad server token deta hai. Token chori = password aur OTP dono skip (session hijacking)
+📦 Supply chain attack: code badla to updates ke raaste sab customers tak ja sakta hai
+✍️ Signing key = digital mohar jo batati hai code asli hai
+
+Developers: GitHub token code mein mat chhodo, permissions kam rakho.
+
+Sources: BleepingComputer (SAP statement), Der Spiegel via Techzine/SecurityWeek, SOCRadar
+
+Us dost ko tag karo jo apna token commit kar deta hai 👇
+Follow @scaleit__up
+
+#cybersecurity #github #technews #trending #viral
